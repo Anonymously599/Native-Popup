@@ -110,6 +110,7 @@ With `"disabled"` or `"hidden"`, if you plan on setting the popup with no way fo
 nativePopup("YOU WILL NOT LEAVE.", "CANNOT", {
   buttons: "none",
   close: "hidden",
+  icon: "error",
   name: "stuck",
 });
 
